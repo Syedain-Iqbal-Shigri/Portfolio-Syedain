@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syedain Portfolio</title>
+
+    <link href="./CSS/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100" tabindex="0">
+
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="./index.html">
+                <i class="bi bi-code-square me-2" aria-hidden="true"></i>
+                <span class="visually-hidden">Home - </span>Syedain
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"m,m><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="dropdown ms-lg-3">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Download CV
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./IMG/hero 4.jpg">PDF Format</a></li>
+                        <li><a class="dropdown-item" href="./IMG/hero 3.jpg">Word Format</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="mt-5">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" aria-label="Hero carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img src="./IMG/20250625_103932.jpg" class="d-block w-100" alt="" loading="lazy" style="height:93vh;object-fit:cover;filter:brightness(75%);">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-3 fw-bold text-white">Hello, I'm Syedain</h1>
+                        <p class="lead text-white">Your Web Developer</p>
+                        <a href="#projects" class="btn btn-primary btn-lg mt-3">View Work</a>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img src="./IMG/skill.jpg" class="d-block w-100" alt="Technology stack" loading="lazy" style="height:93vh;object-fit:cover;filter:brightness(70%);">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-3 fw-bold text-white">Clean Code</h1>
+                        <p class="lead text-white">writes perfect codes in VS Code</p>
+                        <a href="#skills" class="btn btn-info text-dark btn-lg mt-3">My Skills</a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img src="./IMG/person-front-computer-working-html.jpg" class="d-block w-100" alt="Design workflow" loading="lazy" style="height:93vh;object-fit:cover;filter:brightness(50%);">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-3 fw-bold text-white">Modern Design</h1>
+                        <p class="lead text-white">Creating beautiful interfaces.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Previous slide">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Next slide">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+                        <img src="./IMG/hero 1.jpg" class="img-fluid rounded-circle shadow" alt="Picture of Syedain"loading="lazy">
+                    </div>
+
+                    <div class="col-lg-7">
+                        <h2 class="fw-bold mb-4">About Me</h2>
+
+                        <div class="alert alert-success d-flex align-items-center" role="status">
+                            <i class="bi bi-check-circle-fill me-2" aria-hidden="true"></i>
+                            <div>Available for freelance projects.</div>
+                        </div>
+
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo eos sequi quis molestiae voluptate fugiat omnis quidem eaque, earum vero consequuntur similique!</p>
+
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item bg-transparent"><i class="bi bi-chevron-right text-primary me-2" aria-hidden="true"></i>Name: Syedain</li>
+                                    <li class="list-group-item bg-transparent"><i class="bi bi-chevron-right text-primary me-2" aria-hidden="true"></i>Email: syedain@gmail.com</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item bg-transparent"><i class="bi bi-chevron-right text-primary me-2" aria-hidden="true"></i>Class: 12th Pass</li>
+                                    <li class="list-group-item bg-transparent"><i class="bi bi-chevron-right text-primary me-2" aria-hidden="true"></i>City: Skardu</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <span class="badge bg-primary fs-6 p-2 me-2">HTML</span>
+                            <span class="badge bg-dark fs-6 p-2 me-2">CSS</span>
+                            <span class="badge bg-info text-dark fs-6 p-2">Bootstrap 5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS: Accordion + Progress bars -->
+        <section id="skills" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">My Technical Skills</h2>
+                    <p class="text-muted">Details of my stack</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="accordion" id="skillsAccordion">
+                            <!-- Frontend item -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFrontend" aria-expanded="true" aria-controls="collapseFrontend">
+                                        <i class="bi bi-laptop me-2" aria-hidden="true"></i> Frontend Development
+                                    </button>
+                                </h2>
+                                <div id="collapseFrontend" class="accordion-collapse collapse show" data-bs-parent="#skillsAccordion">
+                                    <div class="accordion-body">
+                                        <div class="mb-3">
+                                            <div class="d-flex justify-content-between">
+                                                <label>HTML</label>
+                                                <span>81%</span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-success" style="width:81%" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <div class="d-flex justify-content-between">
+                                                <label>CSS</label>
+                                                <span>70%</span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-info text-dark" style="width:70%" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <div class="d-flex justify-content-between">
+                                                <label>Bootstrap 5</label>
+                                                <span>73%</span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-primary" style="width:73%" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Backend item -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBackend" aria-expanded="false" aria-controls="collapseBackend">
+                                        <i class="bi bi-server me-2" aria-hidden="true"></i> Backend Basics
+                                    </button>
+                                </h2>
+                                <div id="collapseBackend" class="accordion-collapse collapse" data-bs-parent="#skillsAccordion">
+                                    <div class="accordion-body">
+                                        <p>Currently exploring server-side logic.</p>
+                                        <div class="mb-3">
+                                            <div class="d-flex justify-content-between">
+                                                <label>JavaScript</label>
+                                                <span>10%</span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-warning text-dark" style="width:10%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <div class="d-flex justify-content-between">
+                                                <label>PHP</label>
+                                                <span>5%</span>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-secondary" style="width:5%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card h-100 shadow-sm border-0 p-4 bg-light">
+                            <h4 class="card-title mb-4">Current Status</h4>
+
+                            <div class="d-flex align-items-center mb-3 p-3 bg-white rounded shadow-sm">
+                                <div class="spinner-border text-primary me-3" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                                <span class="fw-bold">Learning React.js</span>
+                            </div>
+
+                            <div class="d-flex align-items-center mb-3 p-3 bg-white rounded shadow-sm">
+                                <div class="spinner-grow text-success me-3" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                                <span class="fw-bold">Open for Work</span>
+                            </div>
+
+                            <hr>
+                            <h5>Tools</h5>
+                            <div class="d-flex flex-wrap gap-2 mt-2">
+                                <span class="badge bg-secondary p-2">VS Code</span>
+                                <span class="badge bg-dark p-2">Git</span>
+                                <span class="badge bg-secondary p-2">GitHub</span>
+                                <span class="badge bg-info text-dark p-2">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS: Cards -->
+        <section id="projects" class="py-5 bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Recent Work</h2>
+                    <p class="text-muted">click view details for information</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Projectt cards 3 column -->
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="./IMG/responsive web image.jpg" class="card-img-top" alt="Responsive project screenshot" loading="lazy">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title">Portfolio Website</h5>
+                                    <span class="badge bg-warning text-dark">New</span>
+                                </div>
+                                <p class="card-text">A fully responsive personal portfolio.</p>
+                                <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProject1">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="./IMG/UI.jpg" class="card-img-top" alt="E-commerce UI" loading="lazy">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title">E-commerce UI</h5>
+                                    <span class="badge bg-primary">Design</span>
+                                </div>
+                                <p class="card-text">Frontend design for an online store.</p>
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProject2">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="./IMG/dashboard.jpg" class="card-img-top" alt="Dashboard project" loading="lazy">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="card-title">Dashboard Admin</h5>
+                                    <span class="badge bg-secondary">Dev</span>
+                                </div>
+                                <p class="card-text">Admin panel template with charts.</p>
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProject3">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav aria-label="Project pagination" class="mt-5">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <div class="modal fade" id="modalProject1" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Portfolio Website</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./IMG/grid.jpg" class="img-fluid rounded mb-3" alt="Project 1 screenshot" loading="lazy">
+                        <p>This project demonstrates my ability to use the Bootstrap grid system.</p>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#Projects">Projects</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Portfolio Website</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Visit Site</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalProject2" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">E-commerce UI</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>A clean UI focusing on product cards.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalProject3" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Dashboard Admin</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>An admin panel with data tables.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="contact" class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card shadow border-0">
+                            <div class="card-body p-5">
+                                <h2 class="text-center fw-bold mb-4">Contact Me</h2>
+
+                                <form action="#" method="post">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="nameInput" name="name" placeholder="Name" required>
+                                                <label for="nameInput">Your Name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control" id="emailInput" name="email" placeholder="name@example.com" required>
+                                                <label for="emailInput">Email address</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="input-group">
+                                                <span class="input-group-text bg-primary text-white"><i class="bi bi-pencil" aria-hidden="true"></i></span>
+                                                <input type="text" class="form-control" id="subjectInput" name="subject" placeholder="Subject">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <textarea class="form-control" placeholder="Leave a comment here" id="msgInput" name="message" style="height:150px"></textarea>
+                                                <label for="msgInput">Your Message</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 text-center mt-4">
+                                            <button class="btn btn-primary btn-lg px-5" type="submit">Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container text-center">
+            <h3 class="fw-bold mb-3">Contact me</h3>
+            <div class="btn-group mb-4" role="group" aria-label="Social links">
+                <a href="#" class="btn btn-outline-primary rounded-circle" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="#" class="btn btn-outline-info rounded-circle" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="btn btn-outline-danger rounded-circle" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+
+            <p class="text-white-50">Syedain. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./JS/bootstrap.min.js" defer></script>
+</body>
+</html>
